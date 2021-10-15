@@ -37,5 +37,16 @@ console.log(middleNums);
   to the answers array. 
   Return the answers array inside of the function.
 */
-
-// CODE HERE
+let arr         = [2, 3, 5, 80, 112, 17, 210, 28];
+let answers     = [];
+for(i = 0; i < arr.length; i++) {
+    if(arr[i] > 100) {
+            answers.push("big");
+    } else {
+            answers.push("small");
+    }
+}
+function bigOrSmall(_arr) {
+    console.log(answers);
+}
+bigOrSmall();
