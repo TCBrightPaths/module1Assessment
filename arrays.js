@@ -19,9 +19,10 @@ console.log(colorCopy);
   numbers array that will capture only the middle numbers (2, 3, 4).
 */
 
-const numbers = [1, 2, 3, 4, 5]
+const numbers  = [1, 2, 3, 4, 5]
 
-//CODE HERE
+let middleNums = [numbers.slice(1, 4)[0], numbers.slice(1,4)[1], numbers.slice(1,4)[2]];
+console.log(middleNums);
 
 
 //////////////////PROBLEM 4////////////////////
