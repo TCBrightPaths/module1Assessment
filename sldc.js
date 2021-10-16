@@ -24,3 +24,4 @@ let design        = "This step could refer to the architect's overall design or 
 let implement     = "This is where all of the code is put together into production, including backend code."
 let testIntegrate = "User acceptance testing by various project stakeholders and implementation into the organization at large. This step would also include onboarding."
 let maintain      = "Once the software is completed it will always require regular updates and bug fixes."
+//
