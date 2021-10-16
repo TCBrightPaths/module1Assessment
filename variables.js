@@ -20,7 +20,11 @@ let lovesCode = true;
   If it's not, console.log('not lucky 13').
 */
 
-//CODE HERE
+if(faveNum === 13) {
+  console.log('lucky 13!');
+} else {
+  console.log ('not lucky 13');
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
