@@ -17,7 +17,7 @@ let gitDefinition = "git is a form of version control that allows you to track c
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = "an online remote grouping of repositories/folders containing your code."
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -33,15 +33,18 @@ let gitDefinition = "git is a form of version control that allows you to track c
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = Object.create;
+init.description = "this command initializes a new hidden folder to contain your tracked changes."
+init.code = "git init"
 
+console.log(init.code);
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+//CODE HE
 
 //////////////////PROBLEM 5////////////////////
 /*
