@@ -8,6 +8,9 @@ const reader = readline.createInterface({
 
 reader.setPrompt("Welcome. Please enter your password.");
 reader.prompt();
+reader.on('line', (input) => {
+    
+});
 
 reader.question("What would you like to calculate?", function(input){
 	tokens = input.split(' ');
