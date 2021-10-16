@@ -44,7 +44,9 @@ console.log(init.code);
     following the guidelines above to describe the clone command.
 */
 
-//CODE HE
+let clone = Object.create;
+clone.description = "this is a quick way to connect your remote repository with your local repository."
+clone.code        = "git clone <link>"
 
 //////////////////PROBLEM 5////////////////////
 /*
