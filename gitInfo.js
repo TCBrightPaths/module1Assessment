@@ -65,7 +65,9 @@ console.log(status.code);
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = Object.create;
+add.description = "stages changes made to the code"
+add.code = "git add <argument>"
 
 //////////////////PROBLEM 7////////////////////
 /*
