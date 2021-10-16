@@ -6,12 +6,12 @@ let myName = "Tamara Chance";
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
-let faveNum = 32
+let faveNum = 32;
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
-//CODE HERE
+let lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 /*
