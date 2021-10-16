@@ -54,7 +54,10 @@ clone.code        = "git clone <link>"
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = Object.create;
+status.description = "shows whether or not you are up to date."
+status.code = "git status"
+console.log(status.code);
 
 //////////////////PROBLEM 6////////////////////
 /*
