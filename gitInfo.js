@@ -75,7 +75,9 @@ add.code = "git add <argument>"
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = Object.create;
+commit.description = "commits your changes to be tracked by git on local device"
+commit.code = "git commit -m ()"
 
 
 //////////////////PROBLEM 8////////////////////
