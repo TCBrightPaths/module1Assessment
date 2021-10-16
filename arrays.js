@@ -50,3 +50,4 @@ function bigOrSmall(_arr) {
     console.log(answers);
 }
 bigOrSmall();
+//
