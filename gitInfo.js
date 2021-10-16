@@ -86,4 +86,6 @@ commit.code = "git commit -m ()"
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = Object.create;
+push.description = "sends code to remote repository"
+push.code = "git push"
